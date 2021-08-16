@@ -1,9 +1,10 @@
 package ru.netology.domain;
 
 public class Likes {
-    private String nameLikes;    // имя создавшего пост
-    private String countLikes;  // количество лайков
-    private String userLikes;   // наличие отметки «Мне нравится» от текущего пользователя
+    private int count;     // количество комментариев
+    private boolean userLikes;      // наличие отметки «Мне нравится» от текущего пользователя
+    private boolean canLike;       // информация о том, может ли текущий пользователь поставить отметку «Мне нравится»
+    private boolean canPublish;    // информация о том, может ли текущий пользователь сделать репост записи (
 
     // + get/set
 }
